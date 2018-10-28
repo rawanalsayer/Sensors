@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/lightIntensity4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:text="Light Intensity:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lightIntensity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="83dp"
+        android:text="Watre Level:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lightIntensity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:text="Air Humidity:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:text="Air Temperature:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/simpleSeekBar"
+        android:layout_width="290dp"
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/scrubber_layer_list"
+        android:thumb="@null" />
+
+    <TextView
+        android:id="@+id/minValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/simpleSeekBar"
+        android:layout_marginStart="39dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/maxValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/simpleSeekBar"
+        android:layout_marginEnd="13dp"
+        android:gravity="center"
+        android:text="5000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Humidty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginTop="20dp"
+        android:text="/5000 LX"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/LightIntensity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="178dp"
+        android:text="Soil Moisture:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="24sp" />
+
+
+    <!--
+            android:layout_alignParentTop="true"
+
+            android:layout_marginTop="75dp"
+            android:text="Humidty" />
+        <TextView
+            android:id="@+id/LightIntensity"
+            android:layout_width="127dp"
+            android:layout_height="38dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="75dp"
+            android:text="LightIntensity" />
+        <TextView
+            android:id="@+id/Humidty"
+            android:layout_width="127dp"
+            android:layout_height="38dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="75dp"
+            android:text="Humidty" />
+        <TextView
+            android:id="@+id/Humidty"
+            android:layout_width="127dp"
+            android:layout_height="38dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="75dp"
+            android:text="Humidty" />
+        <TextView
+            android:id="@+id/Humidty"
+            android:layout_width="127dp"
+            android:layout_height="38dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="75dp"
+            android:text="Humidty" />
+    -->
+</RelativeLayout>
